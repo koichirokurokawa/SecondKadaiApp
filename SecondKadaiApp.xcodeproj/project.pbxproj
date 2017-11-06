@@ -12,6 +12,7 @@
 		4649DA6F1F9B5CB200861823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4649DA6D1F9B5CB200861823 /* Main.storyboard */; };
 		4649DA711F9B5CB200861823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4649DA701F9B5CB200861823 /* Assets.xcassets */; };
 		4649DA741F9B5CB200861823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4649DA721F9B5CB200861823 /* LaunchScreen.storyboard */; };
+		46F9242A1FA04F720071C049 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F924291FA04F720071C049 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4649DA701F9B5CB200861823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4649DA731F9B5CB200861823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4649DA751F9B5CB200861823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F924291FA04F720071C049 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4649DA691F9B5CB200861823 /* AppDelegate.swift */,
 				4649DA6B1F9B5CB200861823 /* ViewController.swift */,
 				4649DA6D1F9B5CB200861823 /* Main.storyboard */,
+				46F924291FA04F720071C049 /* ResultViewController.swift */,
 				4649DA701F9B5CB200861823 /* Assets.xcassets */,
 				4649DA721F9B5CB200861823 /* LaunchScreen.storyboard */,
 				4649DA751F9B5CB200861823 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				4649DA6C1F9B5CB200861823 /* ViewController.swift in Sources */,
 				4649DA6A1F9B5CB200861823 /* AppDelegate.swift in Sources */,
+				46F9242A1FA04F720071C049 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				4649DA7A1F9B5CB200861823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
